@@ -62,7 +62,21 @@ public class Demo1 {
 		{
 			e.printStackTrace();
 		}
-
 	}
-
 }
+/*Output::
+Creating Connection
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Table is droped
+Table is created
+Table is altered
+Data inserted
+Data in Table
+100  Samad  2000.0
+102  Rohit  2000.0
+103  Vinod  2500.0
+Data after updation
+100  Samad  2000.0
+102  Rohit  2000.0
+103  Vinod  2500.0
+*/
